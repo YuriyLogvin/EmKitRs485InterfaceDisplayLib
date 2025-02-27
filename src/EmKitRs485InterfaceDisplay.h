@@ -1,5 +1,4 @@
 #pragma once
-//https://github.com/RobTillaart/RS485/blob/master/RS485.h#L39
 
 #include "Stream.h"
 #include "BmsInfo/Cell.h"
