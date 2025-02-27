@@ -10,7 +10,7 @@ The library implements EmKitRs485InterfaceDisplay class.
 
 #### Init class
 
-'''
+```
 #include <EmKitRs485InterfaceDisplay.h>
 void setup() 
 {
@@ -19,13 +19,13 @@ void setup()
   ...
 }
 
-'''
+```
 **PA1** - pin enables transmit via RS485. If using avtomatic resolving direction use **NC**
 
 
 #### Using class
 
-'''
+```
   int val1 = 0, val2 = 0;
   EmKitRs485InterfaceDisplay::DataTypes res = _EmKitRs485InterfaceDisplay->TryGetData(val1, val2);
   switch (res)
@@ -43,4 +43,4 @@ void setup()
       ...
   }
 
-'''
+```
