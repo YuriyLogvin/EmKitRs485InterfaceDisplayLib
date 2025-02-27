@@ -1,0 +1,23 @@
+{
+  "name": "EmKitRs485InterfaceDisplayLib",
+  "keywords": "RS485, EmKit, BMS",
+  "description": "Allows to get BMS info via EmKit RS485 bus.",
+  "authors":
+  [
+    {
+      "name": "Yuriy Logvin",
+      "email": "yuriy@logvin@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/YuriyLogvin"
+  },
+  "version": "1.1.1",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "EmKitRs485InterfaceDisplay.h"
+}
